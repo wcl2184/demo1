@@ -3,7 +3,8 @@ package com.wl.demo1.model;
 import java.util.Date;
 
 public class User {
-    //12121212123232446666
+    //12121212123232446666qwqwqw\
+    //67
     private String id;
     private String name;
     private String password;
