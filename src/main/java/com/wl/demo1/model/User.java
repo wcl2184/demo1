@@ -6,8 +6,10 @@ public class User {
     private String name;
     private String password;
     private Date createTime;
-    private String  id;
-
+    //添加了一个注释12333123123eeeee
+    //添加了第二个注释123123123
+    //加一条v 212
+    //加一条  又一个 第二个
     public String getName() {
         return name;
     }
@@ -30,13 +32,5 @@ public class User {
 
     public void setCreateTime(Date createTime) {
         this.createTime = createTime;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 }
