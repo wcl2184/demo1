@@ -7,7 +7,8 @@ public class User {
     private String name;
     private String password;
     private Date createTime;
-    
+
+    private String nename;
     public String getName() {
         return name;
     }
@@ -38,5 +39,13 @@ public class User {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public String getNename() {
+        return nename;
+    }
+
+    public void setNename(String nename) {
+        this.nename = nename;
     }
 }
