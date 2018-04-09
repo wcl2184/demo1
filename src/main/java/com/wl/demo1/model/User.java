@@ -4,7 +4,6 @@ import java.util.Date;
 
 public class User {
     //qqq
-    //666
     private String id;
     private String name;
     private String password;
