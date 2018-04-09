@@ -15,6 +15,7 @@ public class UserController {
         User user = new User();
         user.setName("name"+userId);
         user.setCreateTime(new Date());
+        System.out.println("xxxx");
         return user;
     }
 }
