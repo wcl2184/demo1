@@ -3,6 +3,7 @@ package com.wl.demo1.model;
 import java.util.Date;
 
 public class User {
+    private String id;
     private String name;
     private String password;
     private Date createTime;
@@ -10,6 +11,7 @@ public class User {
     //添加了第二个注释123123123
     //加一条v 212
     //加一条  又一个 第二个
+    //6661212
     public String getName() {
         return name;
     }
@@ -32,5 +34,13 @@ public class User {
 
     public void setCreateTime(Date createTime) {
         this.createTime = createTime;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 }
