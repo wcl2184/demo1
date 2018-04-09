@@ -17,6 +17,7 @@ public class UserController {
         user.setCreateTime(new Date());
         System.out.println("xxxx");
         System.out.println("第二个打印输出");
+        System.out.println("第三个文件");
         return user;
     }
 }

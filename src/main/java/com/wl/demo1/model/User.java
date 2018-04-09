@@ -7,9 +7,7 @@ public class User {
     private String password;
     private Date createTime;
     //添加了一个注释12333123123eeeee
-    //添加了第二个注释123123123
-    //加一条v 212
-    //加一条  又一个 第二个
+
     public String getName() {
         return name;
     }
