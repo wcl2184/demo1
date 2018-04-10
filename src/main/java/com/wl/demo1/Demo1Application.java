@@ -12,7 +12,7 @@ public class Demo1Application {
         for(String name : context.getBeanDefinitionNames()){
             //我添加的
             //第二个
-             
+            //xx
             System.out.println(name);
         }
     }
