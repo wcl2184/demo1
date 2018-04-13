@@ -12,10 +12,11 @@ public class DefaultView extends WebMvcConfigurerAdapter {
         //添加测试
         //111
         //666666666666
-        //7777777
+        //777777232
         //99999
         registry.addViewController( "/" ).setViewName( "forward:/index.html" );
         registry.setOrder( Ordered.HIGHEST_PRECEDENCE );
         super.addViewControllers( registry );
+        //2323
     }
 }
