@@ -11,6 +11,7 @@ public class DefaultView extends WebMvcConfigurerAdapter {
     public void addViewControllers(ViewControllerRegistry registry ) {
         //添加测试
         //111
+        //666666666666
         registry.addViewController( "/" ).setViewName( "forward:/index.html" );
         registry.setOrder( Ordered.HIGHEST_PRECEDENCE );
         super.addViewControllers( registry );
