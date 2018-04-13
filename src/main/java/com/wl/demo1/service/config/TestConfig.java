@@ -12,6 +12,6 @@ public class TestConfig {
     public UserServiceImpl UserServiceImpl(ViewResolver viewResolver){
         System.out.println("----------------"+viewResolver);
         return new UserServiceImpl();
-        //s
+        //s3
     }
 }
